@@ -760,6 +760,15 @@ video {
 .flex-order {
   flex-direction: column-reverse;
 }
+
+.custom {
+  padding: 0 !important;
+}
+
+.custom .modal-content {
+  max-width: 95%;
+  margin: 0 auto;
+}
 }
 
 @media (max-width:576px) {
@@ -910,6 +919,15 @@ video {
   font-size: 24px;
 }
 
+.custom .modal-body h4 {
+  font-size: 17px;
+  line-height: 32px;
+}
+
+.custom .cancel-btn {
+  padding: 6px 30px;
+}
+
 }
 
 @media (max-width:450px) {
@@ -985,6 +1003,10 @@ video {
 }
 .intro {
   padding-bottom: 170px !important;
+}
+
+.clients .title {
+  font-size: 21px;
 }
 }
 
